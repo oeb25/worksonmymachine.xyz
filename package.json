@@ -1,0 +1,12 @@
+{
+  "name": "worksonmymachine.xyz",
+  "version": "1.0.0",
+  "scripts": {
+    "pre": "rm -rf dist && mkdir dist && cp static/* dist",
+    "prod": "yarn run pre"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/oeb25/worksonmymachine.xyz.git",
+  "author": "Oliver Bøving <oliverboving@gmail.com>",
+  "license": "MIT"
+}
